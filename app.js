@@ -7,7 +7,7 @@ const mysql=require('mysql');
 const bodyParser=require('body-parser');
 const multer=require('multer');
 const app=express();
-const port=5555;
+const port=PORT;
 
 const con=mysql.createConnection({
 host:'Host',
