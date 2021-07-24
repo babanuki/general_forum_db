@@ -10,10 +10,10 @@ const app=express();
 const port=5555;
 
 const con=mysql.createConnection({
-host:'localhost',
-user:'root',
-password:'Xhdtls12!',
-database:'project0_test'
+host:'Host',
+user:'User',
+password:'Password',
+database:'Database'
 });
 
 app.use(cors());
